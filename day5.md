@@ -7,21 +7,22 @@
 		- Scalability and parallelization. 
 
 **how it is differnt than ec2
-# Ec2 is a server and if it is running then you have to pay for the resources like RAM, core, HD
+
+-  Ec2 is a server and if it is running then you have to pay for the resources like RAM, core, harsdisk
 even if you are not utilizing the resources 100%.
 
-#	In case of serverless,there is a lambda function and no server.
+-	In case of serverless,there is a lambda function and no server.
 You can store code 
  *no chareges will be applicable for storage of code.
 
-#	aws will be charged for the time * ram used *cpu utilization . 
+-	aws will be charged for the time * ram used *cpu utilization . 
 
 
 **Scalability
 
-#	Suppose 1st time your code is using 1 Gb space and 1 core.
+-	Suppose 1st time your code is using 1 Gb space and 1 core.
 And next time your code is updated and now it is your code require 2gb space then automatically get updated. 
-# automatic scale up and down.
+- automatic scale up and down.
 
 **Parallelization
 
@@ -35,12 +36,12 @@ managed by the aws.
 2.backup ,scalability,maintenance is managed by aws in case of RDS.but not in ec2.
 
 
-**About S3**
+**About S3
 
 	-	Everything in s3 bucket is an object.
 	-  	Objects are immutable(once they created u cannot updated)
 
-**Example:**
+**Example:
 
 	Bucket 		: ram
 	Directory	: Test
