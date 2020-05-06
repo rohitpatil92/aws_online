@@ -7,7 +7,8 @@
 		- Scalability and parallelization. 
 
 **how it is differnt than ec2
-- Ec2 is a server and if it is running then you have to pay for the resources like RAM, core, HD
+
+-  Ec2 is a server and if it is running then you have to pay for the resources like RAM, core, harsdisk
 even if you are not utilizing the resources 100%.
 
 -	In case of serverless,there is a lambda function and no server.
