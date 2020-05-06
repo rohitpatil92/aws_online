@@ -12,7 +12,7 @@ selecting the inbound and outbound rule.
 -monitor resorces and services.
 cloud wraced traced upto ec2 and cloud watch keep tracing how many ram require,cpu
 utilization, error in ec2 .
--function of cloud watch
+**function of cloud watch**
 -log store .
 -log search.
 -dashboard.
