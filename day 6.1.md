@@ -3,6 +3,7 @@
 selecting the inbound and outbound rule.
 - in addition vps contain subnet regionwise may be 4 to 6,subnet contain route table and route table contain inernet gateway.due to which weacess internet in ec2.there is CIDR due to which we get ip adress. 
 - as developer point of view we do not have to create vpc.
+
 **cloud train**
 -whatever action performed in cloud eye get stored in cloud train.stra
 - example like start instance,stop instance, create lambda fn.(user activity traceced).
