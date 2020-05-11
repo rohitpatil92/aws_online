@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <script>
+           window.alert("rohit patil");
+       </script>
+   </body> 
+   <button type ="burtton" onclick="document.write('rohit patil')"></button>
+</html>
