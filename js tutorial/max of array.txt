@@ -5,20 +5,20 @@
 <html>
 <body>
 
-<h2>JavaScript for max</h2>
-<p>the max no is:<span id ="demo"></span></p>
-
+<h2>JavaScript for ascending</h2>
+<p>the array of asc:<span id ="demo"></span></p>
+<button onclick="myfun()">submit</button>
 <script>
 var num =[52,32,96,58,78];
-document.getElementById("demo").innerHTML=myfun(num);
-function myfun(arr)
+document.getElementById("demo").innerHTML=num;
+function myfun()
 {
-    return Math.max.apply(null,arr);
+    num.sort(function(a,b){return(a-b)});
+    document.getElementById("demo").innerHTML=num;
 }
 
 
 </script>
-
 
 
 
