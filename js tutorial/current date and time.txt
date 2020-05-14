@@ -1,0 +1,26 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>change font of the name</h1>
+    <p id ="demo"></p>
+    <button onclick="myfun()">current date and time</button>
+<script>
+
+function myfun()
+{
+document.getElementById("demo").innerHTML= Date();
+
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
