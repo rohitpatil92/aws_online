@@ -1,0 +1,23 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>array of desc</h1>
+    <p id ="demo"></p>
+    <button onclick="myfun()">the desc order of array</button>
+<script>
+var arr =[42,52,41,8,63,21,47,69,26,36];
+document.getElementById("demo").innerHTML=arr;
+
+function myfun()
+{
+    arr.sort(function(a,b){return(b-a)});
+document.getElementById("demo").innerHTML= arr;
+
+}
+
+</script>
+</body>
+</html>
