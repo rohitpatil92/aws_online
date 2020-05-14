@@ -1,0 +1,24 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>name in p tag</h1>
+    <p id ="demo"></p>
+    <button onclick="myfun()">click me</button>
+<script>
+
+
+
+function myfun()
+{
+    var x="rohit";
+    
+document.getElementById("demo").innerHTML= x;
+
+}
+
+</script>
+</body>
+</html>
