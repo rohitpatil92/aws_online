@@ -1,0 +1,26 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>change font of the name</h1>
+    <p id ="demo">Rohit</p>
+    <button onclick="myfun()">click me</button>
+<script>
+
+function myfun()
+{
+document.getElementById("demo").style.fontSize="48px";
+
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
