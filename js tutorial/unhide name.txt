@@ -1,0 +1,13 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>unhide the name</h1>
+    <p id ="demo" style="display:none">Rohit patil</p>
+    <button onclick ="document.getElementById('demo').style.display='block'">click me</button>
+
+
+</body>
+</html>
