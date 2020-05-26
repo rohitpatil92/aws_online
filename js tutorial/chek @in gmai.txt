@@ -1,0 +1,17 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <p>Declare a string having an email Id and check if @ is there in the string or notJavaScript String Methods</p>
+    <p id ="demo" ></p>
+    <body>
+        <script>
+        var str ="rohitpatil9036@gmail.com";
+        var ptr =str.search("@");
+        document.getElementById("demo").innerHTML= ptr;
+</script>
+
+</body>
+</html>
