@@ -24,7 +24,7 @@ utilization, error in ec2 .
 
 
 
-
+yes y have to do that is awesome
 
 
 
